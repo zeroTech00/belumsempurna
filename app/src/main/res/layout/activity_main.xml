@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SENSOR 1" />
+
+        <TextView
+            android:id="@+id/txt_sensor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SENSOR 2" />
+
+        <TextView
+            android:id="@+id/txt_sensor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SENSOR 3" />
+
+        <TextView
+            android:id="@+id/txt_sensor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SENSOR 4" />
+
+        <TextView
+            android:id="@+id/txt_sensor4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TANGGAL" />
+
+        <TextView
+            android:id="@+id/txt_Tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn_Create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="CREATE" />
+
+        <Button
+            android:id="@+id/btn_SHOW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="SHOW ALL " />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_SEARCH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="SEARCH" />
+
+            <EditText
+                android:id="@+id/edText_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="isi data"
+                android:ems="10"
+                android:layout_toEndOf="@+id/btn_SEARCH"
+                android:layout_marginLeft="20dp"/>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_testJSONarray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEST JSON ARRAY"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_showlatest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW LATEST"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
